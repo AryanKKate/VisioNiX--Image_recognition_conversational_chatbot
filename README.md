@@ -14,6 +14,10 @@ VisioNiX aims to interpret visual data by generating captions and extracting tex
 1. **BLIP (Bootstrapping Language-Image Pre-training)**: A model for generating descriptive captions that capture the essence of an image. BLIP is designed to "see" and "describe" images, creating captions that relate both obvious and subtle features within a picture.
 2. **Tesseract OCR**: An open-source OCR engine developed by Google that recognizes and extracts text embedded within images, allowing for textual content analysis alongside visual interpretation.
 
+![Project Screenshot](demo1.png)
+![Project Screenshot](demo2.png)
+
+
 Together, these capabilities make VisioNiX a comprehensive solution for image processing.
 
 ### Key Features
