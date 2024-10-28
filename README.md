@@ -1,13 +1,9 @@
 # VisioNiX--Image_recognition_conversational_chatbot
-An image recognition chatbot that can give brief explaination of the image according to the prompts
-
-It appears the notebook is intended to generate captions for images using the BLIP (Bootstrapping Language-Image Pre-training) model and includes OCR (Optical Character Recognition) capabilities via Tesseract. Here's a draft README based on the initial inspection:
-
 ---
 
 # VisioNiX
-
-VisioNiX is an image captioning and optical character recognition (OCR) tool leveraging advanced language-image models and the Tesseract OCR engine. It generates descriptive captions for images and extracts embedded text using the BLIP model and Tesseract, respectively.
+Introducing VisioNiX an image recognition chatbot that can give brief explaination of the image according to the prompts
+VisioNiX is an image captioning and optical character recognition (OCR) tool leveraging advanced language-image models and the Tesseract OCR engine. It generates descriptive captions for images and extracts embedded text using the BLIP model and Tesseract, respectively. It processes user queries and answers them through Cohere LLM.
 
 ## Features
 
@@ -50,5 +46,15 @@ Run the notebook to perform image captioning and OCR on your images:
 - `pytesseract`
 - `pandas`
 - `cohere` (optional for advanced NLP tasks)
+
+## Known Issues
+- May not provide accurate answers to complex queries.
+- May not provide accurate description for badly aligned images.
+
+## Future Changes Intended:
+- Develop my own LLM.
+- Fixing known isssues.
+- Deployment.
+- Finetuning for better results.
 
 
